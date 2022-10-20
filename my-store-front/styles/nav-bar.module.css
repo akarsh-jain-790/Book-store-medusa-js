@@ -1,0 +1,42 @@
+.container {
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  font-size: var(--fz-sm);
+  cursor: pointer;
+  margin-left: 2rem;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  background: #679e95;
+}
+
+.btn span {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.btn svg {
+  font-size: var(--fz-ml);
+}
+
+.navbar{
+  height: 50px;
+  padding-top: 10px;
+  background: linear-gradient(to right,#679e95,#1b1e2a);
+}
+
+.nav_link:hover,.navbar-brand:hover{
+  color: cyan !important;
+}

@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+}
+
+.sizebtn {
+  padding: 0.7rem;
+  border: none;
+  background: lightgrey;
+  border-radius: 2px;
+  min-height: 38px;
+  min-width: 38px;
+  margin-right: 0.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.sizebtn:hover {
+  filter: brightness(0.9);
+}
+
+.selected {
+  background: var(--logo-color-900);
+  color: white;
+}
+
+.ticker {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+}
+
+.selection {
+  margin: 2rem 0;
+}
+
+.selection p {
+  margin: 0;
+  margin-bottom: 0.7rem;
+}
+
+.qtybtn {
+  height: 38px;
+  width: 38px;
+  border: none;
+  background: none;
+  transition: all 0.2s ease-in;
+  border-radius: 2px;
+}
+
+.qtybtn:hover,
+.qtybtn:focus {
+  background: var(--logo-color-100);
+}
+
+.addbtn {
+  font-size: 1.125rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  padding: 0.5rem 1.25rem;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  background: var(--logo-color-900);
+  color: white;
+  border-radius: 4px;
+  transition: background 0.2s ease-in;
+  font-weight: 500;
+  border: none;
+}
+
+.addbtn svg {
+  margin-left: 0.7rem;
+}
+
+.addbtn:hover {
+  background: var(--logo-color-1000);
+}
+
+.product_img{
+  box-shadow: 5px 5px 10px #919296;
+  width: 170px;
+  height: 200px;
+}
+.description{
+  padding: 30px;
+  border: none;
+  box-shadow: 5px 5px 10px #919296;
+}
+.btn_rent{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #679e95;
+}
+.btn_wishlist{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background-color: #1b1e2a;
+}
+.Sbooks{
+  overflow: visible;
+  height: 300px;
+}
+.Sbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  box-shadow: 5px 5px 10px #919296;
+}
+/* just added */
+.just_added{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #f8f9fa;
+}
+.line{
+  height: 3px !important;
+  color:  #679e95;
+}
+.title{
+  margin-bottom: 2%;
+}
+/* wave */
+.wave{
+
+  background-image: linear-gradient(to right,#679e95,#1b1e2a);
+}
+.wave_2{
+  width: 100%;
+}
