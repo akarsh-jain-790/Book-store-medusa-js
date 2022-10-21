@@ -136,7 +136,6 @@ const Product = ({ product }, { products }) => {
                       </div>
                       <div class={`${styles.buttons} d-flex`}>
                         <button class={`${styles.btn_rent} me-3`} onClick={() => handleAddToBag()}>Add to Cart</button>
-                        <button class={styles.btn_wishlist}>Buy Now</button>
                       </div>
                       </div>
                   <div class="row" >

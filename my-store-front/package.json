@@ -16,6 +16,7 @@
     "axios": "^0.21.3",
     "bootstrap": "^5.2.2",
     "formik": "^2.2.9",
+    "medusa-file-minio": "^1.1.0",
     "next": "^11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",

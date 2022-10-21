@@ -33,7 +33,7 @@ export default function Home({ products }) {
               </div>
             </div>
           </div>
-          <img src="assets/images/wave1.png" className={styles.wave - 1} />
+          <img src="assets/images/wave1.png" className={styles.wave_1} />
         </section>
         {/* <!-- just added section --> */}
         <section className="products">
@@ -63,15 +63,9 @@ export default function Home({ products }) {
                                 src={p.thumbnail}
                                 alt="thumbnail"
                                 width={300}
-                                height={230}
+                                height={500}
+                                
                               ></Image>
-                            </div>
-                            <div className="card-body">
-                              <p className="card-text">{p.title}</p>
-                              <p className="card-text">{p.description.slice(20, 50)}</p>
-                              <p style={{ color: "#8a4af3" }}>
-                                {formatPrices(cart, p.variants[0])}
-                              </p>
                             </div>
                           </a>
                         </div>
@@ -83,38 +77,15 @@ export default function Home({ products }) {
             <hr className={styles.line} />
           </div>
         </section>
-        {/* <!-- about us --> */}
-        <section id={styles.aboutus}>
-          <div className="container ">
-            <h1 className={`${styles.title} text-center`}>About Us</h1>
-            <div className="row">
-              <div className="col-md-6">
-                <p className={styles.aboutus_title}>Why choose us</p>
-                <ul className="list">
-                  <li>Lorem ipsum dolor sit amet consectetur.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur.</li>
-                </ul>
-              </div>
-              <div className="col-md-6">
-                <img src="assets/images/network.png" className="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </section>
         {/* <!-- footer section --> */}
         <section id={styles.contact}>
-          <img src="assets/images/wave2.png" className={styles.wave - 2} />
+          <img src="assets/images/wave2.png" className={styles.wave_2} />
           <div className="container">
             <div className="row">
               <div className="col-md-4 footer-box">
                 <h1>BookStore</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  vel tempore iure non, mollitia sunt soluta placeat pariatur?
-                  Architecto, harum!
+                “Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.” ― Charles W.
                 </p>
               </div>
               <div className="col-md-4 my-4 mx-5">
@@ -122,13 +93,13 @@ export default function Home({ products }) {
                   <b>CONTACT US</b>
                 </p>
                 <p>
-                  <i className="fas fa-map-marker"></i>IT Park,Bhopal
+                  <i className="fas fa-map-marker pe-2"></i>Wall street,New York
                 </p>
                 <p>
-                  <i className="fas fa-phone-alt"></i>0755-662630
+                  <i className="fas fa-phone-alt pe-2"></i>315-662630
                 </p>
                 <p>
-                  <i className="fas fa-envelope"></i>Bookstore@gmail.com
+                  <i className="fas fa-envelope pe-2"></i>Bookstore@gmail.com
                 </p>
               </div>
             </div>
@@ -136,7 +107,7 @@ export default function Home({ products }) {
         </section>
         <script
           src="https://kit.fontawesome.com/e6843aaddf.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </div>
     </div>
